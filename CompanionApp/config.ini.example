@@ -1,0 +1,33 @@
+[wow]
+# Full path to your World of Warcraft installation directory.
+# Example: C:\Program Files (x86)\World of Warcraft
+install_path = CHANGE_ME
+
+# Game version folder name. For TBC Anniversary, this is _classic_era_
+game_version = _classic_era_
+
+# Your account folder name inside WTF\Account\.
+# This is usually a numeric Battle.net ID like "123456789#1".
+# Browse the WTF\Account\ folder to find it -- there is usually only one entry.
+account_name = CHANGE_ME
+
+[spotify]
+# Create a Spotify Developer App at https://developer.spotify.com/dashboard
+# Set the redirect URI to http://127.0.0.1:8888/callback
+client_id = CHANGE_ME
+client_secret = CHANGE_ME
+redirect_uri = http://127.0.0.1:8888/callback
+
+# File path to cache the OAuth token (relative to companion app directory)
+cache_path = .spotify_token_cache
+
+[companion]
+# How often to refresh Spotify status and write SpotifyControlData.lua (seconds).
+# Lower values = fresher data on reload, but more API calls and disk writes.
+status_refresh_interval = 5.0
+
+# Volume step for VOL_UP and VOL_DOWN commands (percentage points).
+volume_step = 10
+
+# Log level: DEBUG, INFO, WARNING, ERROR
+log_level = INFO

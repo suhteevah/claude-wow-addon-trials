@@ -1,0 +1,25 @@
+## Interface: 20505
+## Title: |cFF1DB954Spotify|r Control
+## Notes: Control Spotify playback from within WoW. Requires the SpotifyControl companion app.
+## Author: SpotifyControl
+## Version: 1.0.0
+## DefaultState: enabled
+## SavedVariables: SpotifyControlDB
+## SavedVariablesPerCharacter: SpotifyControlCharDB
+
+# Libraries
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+# Companion data file (written by Python app, loaded here)
+SpotifyControlData.lua
+
+# Addon code
+Core.lua
+Comm.lua
+Commands.lua
+UI.lua
+Minimap.lua
+Settings.lua

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:warcraft.wiki.gg)",
+      "Bash(python3 -c:*)",
+      "Bash(py:*)",
+      "Bash(where:*)",
+      "Bash(python -c:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(dir:*)",
+      "WebFetch(domain:us.forums.blizzard.com)"
+    ]
+  }
+}
