@@ -3,8 +3,8 @@
 # Example: C:\Program Files (x86)\World of Warcraft
 install_path = CHANGE_ME
 
-# Game version folder name. For TBC Anniversary, this is _classic_era_
-game_version = _classic_era_
+# Game version folder name. For TBC Anniversary, this is _anniversary_
+game_version = _anniversary_
 
 # Your account folder name inside WTF\Account\.
 # This is usually a numeric Battle.net ID like "123456789#1".
